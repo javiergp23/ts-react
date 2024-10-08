@@ -33,9 +33,6 @@ export function CardBody(props: CardBodyProps) {
       <p className="card-text">
         {text}
       </p>
-      <a href="#" className="btn btn-primary">
-        Go somewhere
-      </a>
     </>
   );
 }

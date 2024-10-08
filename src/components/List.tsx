@@ -1,14 +1,13 @@
-type props = {
-    data: string;
+type Props = {
+    data: string[];
 };
 
-function List({data}: props) {
+function List({data}: Props) {
   return (
     <ul className="list-group">
-        {data.map((elemento) => {
-            <li className="list-group-itam ">{elemento}</li>
-
-        })}
+        {data.map((elemento) => (
+            <li key={elemento} className="list-group-item ">{elemento}</li>
+        ))}
         
     </ul>
   );
