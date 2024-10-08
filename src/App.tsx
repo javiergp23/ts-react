@@ -4,7 +4,7 @@ function App() {
  
   return (
     <>
-      <Card body={"Hola mundo"}/>
+      <Card body={"Hola Mundo"}/>
     </>
   )
 }
