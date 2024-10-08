@@ -1,10 +1,12 @@
-import Card from './components/Card';
+import Card, { CardBody } from './components/Card';
 
 function App() {
  
   return (
     <>
-      <Card body={"Hola Mundo"}/>
+      <Card >
+        <CardBody title={"titulooo"} text={"este es el texto que ddebe aparecer en el centro de la tarjeta importada de bootstrap"} />
+      </Card>
     </>
   )
 }
